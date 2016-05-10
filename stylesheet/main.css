@@ -1,0 +1,42 @@
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6249c5+0,6249c5+61 */
+  background: #6249c5; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #6249c5 0%, #6249c5 61%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg,  #6249c5 0%,#6249c5 61%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg,  #6249c5 0%,#6249c5 61%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6249c5', endColorstr='#6249c5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.divider {
+  background-color: white
+  width: 15%;
+  position: absolute;
+  height: 1px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-weight: 400;
+    font-size: 30px
+  }
+}
+
+
+@media (min-width: 992px) {
+  h1 {
+      font-weight: 600;
+      font-size: 50px
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+      font-weight: 600;
+      font-size: 100px
+  }
+}
